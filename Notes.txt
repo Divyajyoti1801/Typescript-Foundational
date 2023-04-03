@@ -1,0 +1,38 @@
+TYPESCRIPT NOTES
+
+- Typescript is an open source language and is a superset of Javascript
+
+    -- Offers additional feature to Javascript including static types
+    -- Using types is completely optional
+    -- Compiles down to regular JS
+    -- Can be used for front-end JS as well as backend with Node.JS
+    -- Includes most features from ES6 and ES7 (classes, arrow functions, etc)
+    -- Types from 3rd party libraries can be added with type definitions
+
+- Dynamic VS Static Typing 
+    -- In dynamically typed languages, the types are associated with run-time values and not named explicitly in your code.
+    -- In statically typed languages, you explicitly assigns types to variables, function parameters, return values etc.
+    -- Static Example: Java, C, C++, Rust, Go
+    -- Dynamic Example: Javascript, Python, Ruby, PHP
+
+- Pros and Cons of Typescript:
+    - PROS:
+        -- More Robust
+        -- Easily Spot Bugs
+        -- Predictability
+        -- Readability
+        -- Popular
+    
+    - CONS:
+        -- More code to write
+        -- More to learn
+        -- Required Compilation
+        -- Not true static Typing
+
+- Compiling TypeScript
+    -- TypeScript uses .ts and .tsx extensions
+    -- TSC(Typescript Compiler) is used to compile .ts files down to JS 
+    -- Can watch files and report errors at compile time
+    -- Many tools includes TS Compilation by default
+    -- Most IDEs have great supports for TS
+    -- The tsconfig.json file is used to configure how TypeScript works.
